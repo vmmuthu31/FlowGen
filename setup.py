@@ -11,26 +11,18 @@ VERSION = '0.0.1'
 DESCRIPTION = '''The `FlowGen` is a simple and flexible module that allows users to visualize actor-based interfaces for their systems or projects. It's especially useful for system designers, developers, and architects to quickly draft and visualize interfaces based on different user roles and their associated functionalities.'''
 
 setup(
-    name='WebTorchX',
+    name='FlowGen',
     version='0.0.1',
     description=DESCRIPTION,
     long_description_content_type='text/markdown',
     long_description=open('readme.md').read() + '\n\n' +
     open('CHANGELOG.txt').read(),
-    url='http://nagipragalathan.pythonanywhere.com/',
-    author='NagiPragalathan',
-    author_email='nagipragalathan@gmail.com',
+    url='https://vm-portfolio3.netlify.app/',
+    author='Vairamuthu M',
+    author_email='mvairamuthu2003@gmail.com',
     license='MIT',
     install_requires=[
-        'TerminalDesigner',
-        'webdriver_manager==3.8.6',
-        'selenium==4.9.0',
-        'black==23.7.0',
-        'numpy==1.23.5',
-        'Stack_data==0.6.2',
-        'pyautogui==0.9.53',
-        'pytest==7.4.1',
-        'colorama'
+        'matplotlib',
     ],  # Replace with actual dependencies
     entry_points={
         'console_scripts': [
@@ -46,7 +38,7 @@ setup(
         "Operating System :: Microsoft :: Windows",
     ],
     KEYWORDS=[
-        'LCTP', 'Selenium', 'Low-Code', 'Web Testing Automation', 'Python',
+        'FlowGen', 'Flow chart Generator', 'Flowchart',  'Python',
         'JSON Configuration', 'Test Automation', 'Work in Progress', 'Author',
         'Version', 'WebTorch', 'GitHub', 'Contributors', 'Top Language',
         'Telegram', 'Contributions Welcome', 'FAQ', 'GitHub Repo Stars',
